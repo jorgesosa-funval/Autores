@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 1rem .8rem;
+    height: fit-content;
+}
+.lista_autores{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+.item_autor{
+    background-color: rgb(57, 255, 235);
+    padding: 2px 12px; 
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}   
+
+.item_autor:hover{
+    background-color: rgb(102, 251, 237);
+    color: rgb(0, 0, 111);
+}
