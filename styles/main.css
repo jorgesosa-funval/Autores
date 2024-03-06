@@ -3,16 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 nav{
     padding: 1rem .8rem;
     height: fit-content;
 }
+
 .lista_autores, .lista_generos{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 1.2rem;
 }
+
 .item_autor, .item_genero{
     background-color: rgb(57, 255, 235);
     padding: 2px 12px; 
@@ -21,13 +24,16 @@ nav{
     font-weight: 500;
     cursor: pointer;
 }   
+
 .item_genero{
     background-color: #ffc31e;
 }
+
 .item_autor:hover{
     background-color: rgb(102, 251, 237);
     color: rgb(0, 0, 111);
 }
+
 .item_genero:hover{
     background-color:  #fbc739;
     color: rgb(0, 0, 111);
